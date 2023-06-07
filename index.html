@@ -1,5 +1,5 @@
 <div>
-  <h2>Index of dev websites on pyviz-dev</h2>
+  <h2>Index of dev websites on holoviz-dev</h2>
 </div>
 <div id="toc">
 
@@ -7,9 +7,9 @@
 
 <script>
   var wrapper = document.getElementById("toc");
-  let url = 'https://api.github.com/orgs/pyviz-dev/repos';
+  let url = 'https://api.github.com/orgs/holoviz-dev/repos';
   var include = '';
-  var exclude = ['sphinx_pyviz_theme', 'status-dashboard', 'blog', 'pyviz-dev.github.io', 'nbsmoke', 'autover', 'nei', 'pyct', 'pyctdev', 'sphinx_holoviz_theme']
+  var exclude = ['sphinx_pyviz_theme', 'status-dashboard', 'blog', 'holoviz-dev.github.io', 'nbsmoke', 'autover', 'nei', 'pyct', 'pyctdev', 'sphinx_holoviz_theme']
 
   fetch(url)
   .then(res => res.json())
